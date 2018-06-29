@@ -1,0 +1,1 @@
+"use strict";define(function(){return function(t){var n=window.location.search.substr(1),i=null;return n.split("&").map(function(n){n.split("=")[0]===t&&(i=n.split("=")[1])}),i}});

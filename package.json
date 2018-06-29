@@ -1,0 +1,22 @@
+{
+    "name": "shucheng",
+    "version": "1.0.0",
+    "description": "> 项目介绍\r ```\r 小米书城中文网其前身为小米书城原创文学协会（Chinese Magic Fantasy Union），是国内文学阅读与写作平台之一，也是国内原创文学门户网站，创立于2002年5月，隶属于国内数字内容综合平台——阅文集团旗下。小米书城网已经形成了完善的创作、培养、销售为一体的电子在线出版机制，并得以向文化产业全面延伸。网站作品内容多元，其中有玄幻、武侠、都市、历史、军事、游戏、竞技、灵异、科幻等小说题材。",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp-webserver": "^0.9.1",
+        "gulp-sass": "*",
+        "gulp-uglify": "*",
+        "gulp-clean-css": "*",
+        "gulp-htmlmin": "*",
+        "gulp-babel": "*",
+        "gulp-autoprefixer": "*",
+        "babel-core": "*",
+        "babel-preset-es2015": "*"
+    }
+}

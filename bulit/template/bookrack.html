@@ -1,0 +1,1 @@
+<!--书架内容--> {{#if this.length}}<div class="right-list">{{#each this}}<dl data-ind="0"><dt><img src="{{cover}}" alt=""></dt><dd><h3>{{title}}</h3><p>{{authors}}</p><p>{{summary}}</p></dd></dl>{{/each}}</div>{{else}}<div class="right-block">{{#each this.data}}<dl data-ind="0"><dt><img src="{{cover}}" alt=""></dt><dd>{{title}}</dd></dl>{{/each}}</div>{{/if}}
